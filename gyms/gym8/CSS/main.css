@@ -1,0 +1,45 @@
+html {
+	background: black;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	color: #525E62;
+}
+
+.pkmn__card {
+	width: 370px;
+	height: 650px;
+	background: white;
+	margin: 1rem auto;
+	padding: 0.5rem 0;
+	border: 2px solid transparent; /* 🐞 Bug 1: Border is transparent, making it invisible */
+}
+
+.pkmn__container {
+	width: 21rem;
+	height: 39rem;
+	background-image: url("../IMG/details_type_bg_fire.png");
+	background-size: 50% 50%; /* 🐞 Bug 2: Background image is incorrectly sized */
+	margin: 1rem auto;
+	padding-top: 5rem; /* 🐞 Bug 3: Too much top padding */
+	border-radius: 5rem; /* 🐞 Bug 4: Overly rounded corners */
+}
+
+.pkmn__picture {
+	width: 1rem; /* 🐞 Bug 5: Image is too small to be visible */
+	height: 1rem;
+	margin: 0 auto;
+}
+
+.pkmn__exp-bar {
+	width: 17rem;
+	height: 17rem;
+	border-style: dotted; /* 🐞 Bug 6: Unintended dotted border */
+	border-color: white rgba(255, 255, 255, 0.5) blue white; /* 🐞 Bug 7: Incorrect border colors */
+	border-radius: 0%; /* 🐞 Bug 8: Missing rounded corners */
+}
+
+.pkmn__name {
+	width: 100%;
+	text-align: left; /* 🐞 Bug 9: Should be centered */
+	font-size: 5rem; /* 🐞 Bug 10: Font size too large */
+}

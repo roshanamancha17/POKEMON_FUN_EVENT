@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Selector</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8d030; /* Pokémon yellow */
+            padding: 50px;
+        }
+        #pokemon-text {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 20px;
+            color: #333;
+        }
+        input {
+            padding: 8px;
+            font-size: 16px;
+            border: 2px solid #ff0000;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 15px;
+            font-size: 16px;
+            background-color: #ff0000;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-left: 10px;
+        }
+        button:hover {
+            background-color: #cc0000;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Pokémon Name Selector</h1>
+    <input type="text" id="pokemon-input" placeholder="Enter Pokémon Name">
+    <button onclick="updatePokemon()">Submit</button>
+
+    <p id="pokemon-text">Choose your Pokémon!</p>
+    <p >WHEN CLICK ON SUBMIT OUTPUT WOULD BE "YOU CHOSE {INPUT}"</p>
+    <H2 style="color: #cc0000;">BELOW IS THE DEMO OUTPUT</H2>
+    <img src="demo.png" alt="" style="border-color: black; border-style: solid;">
+
+    <script>
+        function updatePokemon() {
+
+//write the below variable       
+         let input = document.getElementById("").value;
+        let displayText = document.getElementById("");
+
+            
+            if (input.trim() === "") {
+                displayText.textContent = "Please enter a Pokémon name!";
+            } else {
+                displayText.textContent = "You chose " + input + "!";
+            }
+        }
+    </script>
+
+</body>
+</html>
+
+<!-- answer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  let input = document.getElementById("pokemon-input").value;
+ let displayText = document.getElementById("pokemon-text"); -->
