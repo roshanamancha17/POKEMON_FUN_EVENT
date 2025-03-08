@@ -262,7 +262,7 @@ charactersMap.forEach((row, i) => {
           },
           scale: 3,
           animate: true,
-          dialogue: ['PROBLEM TYPE: CSS', 'HELLO TRAINER THIS IS "GYM 1" AND YOU HAVE TO HAVE KNOWLEDGE ABOUT CSS ANIMARION GOOD LUCK!!']
+          dialogue: ['PROBLEM TYPE: CSS', 'Hello, Trainer! Welcome to Gym 1. To succeed, you will need a solid understanding of CSS animations. Best of luck!']
         })
       )
     }
@@ -298,7 +298,7 @@ charactersMap2.forEach((row, i) => {
           },
           scale: 3,
           animate: true,
-          dialogue: ['PROBLEM TYPE: JS', 'HELLO TRAINER THIS IS "GYM 2" AND YOU HAVE TO HAVE KNOWLEDGE ABOUT DOM MANIPULATION GOOD LUCK!!']
+          dialogue: ['PROBLEM TYPE: JS', 'Hello, Trainer! Welcome to Gym 2. To conquer this challenge, you will need a strong grasp of DOM manipulation. Best of luck!']
         })
       )
     }
@@ -333,7 +333,7 @@ charactersMap3.forEach((row, i) => {
           },
           scale: 3,
           animate: true, 
-          dialogue: ['PROBLEM TYPE: JUST PLAY IT', 'HELLO TRAINER THIS IS "GYM 3" THIS A FUN GAME COMEPLETE THE GAME AND PROGRESS FURTHUR GOOD LUCK!!']
+          dialogue: ['PROBLEM TYPE: JUST PLAY IT', 'Hello, Trainer! Welcome to Gym 3. This is a fun challenge—complete the game to progress further. Good luck!']
         })
       )
     }
@@ -368,7 +368,7 @@ charactersMap4.forEach((row, i) => {
           },
           scale: 3,
           animate: true, 
-          dialogue: ['PROBLEM TYPE: HTML/CSS', 'HELLO TRAINER THIS IS "GYM 4" YOU HAVE TO DO CSS ALIGHNING AND HTML GOOD LUCK!!']
+          dialogue: ['PROBLEM TYPE: HTML/CSS', 'Hello, Trainer! Welcome to Gym 4. Your challenge is to master CSS alignment and HTML. Best of luck!']
         })
       )
     }
@@ -404,7 +404,7 @@ charactersMap5.forEach((row, i) => {
           },
           scale: 3,
           animate: true, 
-          dialogue: ['PROBLEM TYPE: JS', 'HELLO TRAINER THIS IS "GYM 5" GAIN KEEN KNOWLEDGE OF JS GOOD LUCK!!']
+          dialogue: ['PROBLEM TYPE: JS', 'Hello, Trainer! Welcome to Gym 5. Sharpen your JavaScript skills to conquer this challenge. Good luck!']
         })
       )
     }
@@ -439,7 +439,7 @@ charactersMap6.forEach((row, i) => {
           },
           scale: 3,
           animate: true, 
-          dialogue: ['PROBLEM TYPE: CSS', 'HELLO TRAINER THIS IS "GYM 6" DO YOU KNOW CSS PROPERTY GOOD LUCK!!']
+          dialogue: ['PROBLEM TYPE: CSS', 'Hello, Trainer! Welcome to Gym 6. Test your knowledge of CSS properties to overcome this challenge. Good luck!']
         })
       )
     }
@@ -474,7 +474,7 @@ charactersMap7.forEach((row, i) => {
           },
           scale: 3,
           animate: true, 
-          dialogue: ['PROBLEM TYPE: CSS', 'HELLO TRAINER THIS IS "GYM 7" BE A DETECTIVE GOOD LUCK!!']
+          dialogue: ['PROBLEM TYPE: CSS', 'Hello, Trainer! Welcome to Gym 7. Put on your detective hat and solve the challenge. Good luck!']
         })
       )
     }
@@ -509,7 +509,7 @@ charactersMap8.forEach((row, i) => {
           },
           scale: 3,
           animate: true, 
-          dialogue: ['PROBLEM TYPE: HTML/CSS', 'HELLO TRAINER THIS IS "GYM 8" YOU HAVE TO HAVE SKILLS OF CRTL C AND CRTL V GOOD LUCK!!']
+          dialogue: ['PROBLEM TYPE: HTML/CSS', 'Hello, Trainer! Welcome to Gym 8. Your challenge requires mastery of "Ctrl + C" and "Ctrl + V". Good luck!']
         })
       )
     }

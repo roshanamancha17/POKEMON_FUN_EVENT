@@ -22,10 +22,10 @@ function waterCannon() {
       document.getElementById('message').innerHTML = " Blastoise used water cannon "; // attack
       var critical = Math.floor((Math.random() * 10) + 1); // critical
       if(critical == 4){
-        //create logic for dealing critical damage
+        //create logic for dealing "critical damage = 60"
       }
       else{
-       //create a logic for  no critical damage
+       //create a logic for  "no critical damage = 30"
       }
       if(opHP < 0){ opHP = 0} //faint
         document.getElementById('apHP').innerHTML = opHP; // update hp
@@ -33,7 +33,7 @@ function waterCannon() {
         document.getElementById('message').innerHTML = " Charizard fainted! " // update message
       }
   }
-      wait();
+      // wait();
     playerMove = 1; // update player move
 }
 
